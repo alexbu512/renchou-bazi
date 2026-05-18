@@ -1,6 +1,30 @@
 # 壬丑八字命理分析 (renchou-bazi)
 
-专为 **Claude.ai** 设计的专业八字命理排盘与分析 Skill，由具备命理学背景的用户深度定制开发。
+专业八字命理排盘与分析，由具备命理学背景的用户深度定制开发。
+
+支持两种使用方式：
+- **Claude Code Plugin**（推荐）— 在 Claude Code CLI/桌面版中使用，含完整 references 数据
+- **Claude.ai Skill** — 上传 `.skill` 文件到 claude.ai 网页版
+
+---
+
+## Claude Code Plugin 安装
+
+```bash
+# 从 marketplace 安装（上架后）
+/plugin install renchou-bazi
+
+# 本地测试：将整个仓库目录加载为 plugin
+cc --plugin-dir /path/to/renchou-bazi
+```
+
+安装后，直接用自然语言触发：
+
+```
+帮我算八字
+看看我的命盘
+分析一下八字，1990年5月1日上午9点，北京，男
+```
 
 ---
 
