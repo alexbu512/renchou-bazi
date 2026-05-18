@@ -5,5 +5,8 @@
   "author": {
     "name": "alexbu512",
     "email": "xbu719108@gmail.com"
-  }
+  },
+  "homepage": "https://github.com/alexbu512/renchou-bazi",
+  "repository": "https://github.com/alexbu512/renchou-bazi",
+  "license": "MIT"
 }
